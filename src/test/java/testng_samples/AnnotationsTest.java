@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class AnnotationsTest {
 
-	@Test(dataProvider = "dp")
+	@Test(dataProvider = "dp") // datat is taken from dataProvider with name dp
 	public void Test1(Integer n, String s) {
 		System.out.println("Test1 is running");
 		System.out.println(n + " " + s);
@@ -43,7 +43,7 @@ public class AnnotationsTest {
 		System.out.println("AfterMethod is running");
 	}
 
-	@DataProvider
+	@DataProvider // Provides data for test
 	public Object[][] dp() {
 		return new Object[][] { new Object[] { 1, "a" }, new Object[] { 2, "b" }, };
 	}

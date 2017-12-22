@@ -12,6 +12,9 @@ package testng_samples;
 @AfterMethod: The annotated method will be run after each test method.
 
 ****************************************************
+
+Note: BeforeGroup and AfterGroup are covered in Explanation_Groups
+
 **************  Console output: ********************
 
 BeforeSuite is running          - coming from AnnotationsTest.java, runs before suite is running
