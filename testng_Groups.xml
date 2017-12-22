@@ -2,15 +2,16 @@
  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"> <!-- Suite -->
 	<test name="Suite Test1"> <!-- Test -->
-
+     <groups>
+     <run>
+     <include name="japan" />
+     <include name="auto" />
+     <exclude name="russian" />
+     </run>
+     </groups>
 		<classes>
-			<class name="testng_samples.AnnotationsTest" /><!-- Class -->
-			<class name="testng_samples.AnnotationsTest2" /><!-- Class -->
+			<class name="groups_samples.GroupsTest" /><!-- Class -->
 		</classes>
 	</test><!-- Test -->
-	<test name="Suite Test2"><!-- Test -->
-		<classes>
-			<class name="testng_samples.AnnotationsTest" /><!-- Class -->
-		</classes>
-	</test><!-- Test -->
+	
 </suite> <!-- Suite -->

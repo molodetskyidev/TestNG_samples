@@ -13,7 +13,7 @@ package testng_samples;
 
 ****************************************************
 
-Note: BeforeGroup and AfterGroup are covered in Explanation_Groups
+Note: BeforeGroups and AfterGroups are covered in Explanation_Groups
 
 **************  Console output: ********************
 
@@ -72,7 +72,5 @@ AfterSuite2 is running          - coming from AnnotationsTest2.java, runs after 
  */
 
 public class Explanation_Annotations {
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
-	}
+
 }
