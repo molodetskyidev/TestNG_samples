@@ -43,7 +43,11 @@ public class AnnotationsTest {
 		System.out.println("AfterMethod is running");
 	}
 
-	@DataProvider // Provides data for test
+	@DataProvider(name = "dp", parallel = false) // Provides data for test
+	// The name of this data provider. If it's not supplied, the name of this
+	// data provider will automatically be set to the name of the method.
+	// If set to true, tests generated using this data provider are run in
+	// parallel. Default value is false.
 	public Object[][] dp() {
 		return new Object[][] { new Object[] { 1, "a" }, new Object[] { 2, "b" }, };
 	}

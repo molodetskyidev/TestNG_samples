@@ -12,9 +12,10 @@ import org.testng.annotations.Test;
 
 public class AnnotationsTest2 {
 
-	@Test
-	public void Test4() {
+	@Test(dataProviderClass = utils.MyDataProviders.class, dataProvider = "hello")
+	public void Test4(int n, String s) {
 		System.out.println("Test4 is running");
+		System.out.println(n + " " + s);
 	}
 
 	@Test

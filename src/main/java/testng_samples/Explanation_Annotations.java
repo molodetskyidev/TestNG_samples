@@ -40,6 +40,7 @@ AfterClass is running           - coming from AnnotationsTest.java, runs after c
 BeforeClass2 is running         - coming from AnnotationsTest2.java, runs before class (class test in testng.xml), here for AnnotationsTest2.java class
 BeforeMethod2 is running        - coming from AnnotationsTest2.java, runs before each Test method of AnnotationsTest2.java, here for Test4 method
 Test4 is running                - Test4 is running from AnnotationsTest2.java
+3 c                             - data coming from DataProvider, from external DataProviders class
 AfterMethod2 is running         - coming from AnnotationsTest2.java, runs after each Test method of AnnotationsTest2.java, here for Test4 method
 BeforeMethod2 is running        - coming from AnnotationsTest2.java, runs before each Test method of AnnotationsTest2.java, here for Test5 method
 Test5 is running                - Test5 is running from AnnotationsTest2.java
