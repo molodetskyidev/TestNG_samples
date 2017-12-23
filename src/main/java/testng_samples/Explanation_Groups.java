@@ -2,7 +2,9 @@ package testng_samples;
 /* @Test(groups={"group_name1","group_name2"},dependsOnGroups={"group_name3"})
  * allow grouping tests by some groups
  * you can run only selected groups by using corresponded tags in testng.xml. See testng_Groups.xml
+ * 
  * Console output:
+ * 
  * BeforeGroups. It's running before groups
  * BMW   - appears because it's from group auto
  * Hundai - appears because it's from group auto
